@@ -7,7 +7,7 @@ function generator() {
         count++;
         var btn = document.createElement("button");
         btn.className = "btn1";
-        btn.innerHTML = "new Button " + count;
+        btn.innerHTML = "new Box " + count;
         btn.style = "background-color:" + (color) + ";"
         document.body.appendChild(btn);
     }
